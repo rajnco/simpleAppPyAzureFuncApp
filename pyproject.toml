@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "simpleAppPyAzureFuncApp"
+name = "simpleapppyazurefuncapp"
 version = "0.1.0"
-description = ""
+description = "Azure func demo"
 authors = ["Rajkumar N <rajkumar.natarajan@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
 azure-functions = "^1.21.3"
-fastapi = {extras = ["all"], version = "^0.115.4"}
+fastapi = {extras = ["all"], version = "^0.115.5"}
 
 
 [build-system]
