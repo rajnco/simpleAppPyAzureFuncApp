@@ -6,4 +6,4 @@ fastapp = FastAPI()
 
 @fastapp.get("")
 def root():
-    return {"Message": "Hello World"}
+    return {"Message": "Hello World - Azure"}
