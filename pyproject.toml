@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "simpleAppPyAzureFuncApp"
+version = "0.1.0"
+description = ""
+authors = ["Rajkumar N <rajkumar.natarajan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-functions = "^1.21.3"
+fastapi = {extras = ["all"], version = "^0.115.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
